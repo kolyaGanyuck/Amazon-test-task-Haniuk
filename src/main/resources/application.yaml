@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Amazon-test-task-Haniuk
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/daily_sales_by_asin_us
+
+    redis:
+      host: localhost
+      port: 6379
+file:
+  path: D:/Amazon/test_report.json
+server:
+  port: 8081
